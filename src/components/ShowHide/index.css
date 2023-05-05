@@ -1,0 +1,70 @@
+/* Write your CSS here */
+* {
+  font-family: 'Roboto';
+}
+
+.bgcontainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-image: linear-gradient(to right, #fa7257, #fc63a7);
+}
+
+.title {
+  color: #ffffff;
+}
+
+.bottombox {
+  display: flex;
+  flex-direction: row;
+}
+
+@media (max-width: 768px) {
+  .bottombox {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+.box {
+  margin-right: 60px;
+  margin-left: 60px;
+  margin-top: 20x;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+@media (max-width: 768px) {
+  .box {
+    margin-bottom: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+.button {
+  height: 35px;
+  width: 160px;
+  border-width: 0px;
+  border-radius: 5px;
+  background-color: #ffffff;
+  color: #dd1264;
+}
+
+.namebox {
+  height: 100px;
+  width: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-width: 1px;
+  border-radius: 5px;
+  background-color: #fddddb;
+  font-weight: bold;
+}
